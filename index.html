@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gaurav Ayodhya Shivhare | Full Stack Developer</title>
+  <meta name="description" content="Portfolio of Gaurav Ayodhya Shivhare, full stack developer and Computer Engineering student at VIT Pune.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <header class="topbar">
+    <div class="wrap bar">
+      <a class="brand" href="#top"><span class="mark" id="mark"></span><span id="brandName"></span></a>
+      <nav id="nav" aria-label="Sections">
+        <a href="#skills">Skills</a>
+        <a href="#featured">Featured</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div class="reveal">
+        <p class="status"><i></i>Open to internships and full stack roles</p>
+        <h1 id="name">Loading…</h1>
+        <p class="role" id="role"></p>
+        <p class="tagline" id="tagline"></p>
+        <div class="cta">
+          <a class="btn primary" href="#featured">See featured project</a>
+          <a class="btn ghost" href="#contact">Contact me</a>
+        </div>
+        <dl class="stats" id="stats"></dl>
+      </div>
+      <div class="code reveal" aria-hidden="true">
+        <div class="code-bar"><span></span><span></span><span></span><em>developer.js</em></div>
+        <pre id="codeBox"></pre>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="skills" class="block">
+      <div class="wrap">
+        <p class="eyebrow">Skills</p>
+        <h2>What I have learned</h2>
+        <div class="explorer reveal">
+          <div class="tabs" id="tabs" role="tablist" aria-label="Skills"></div>
+          <div class="panel" id="panel" role="tabpanel">
+            <h3 id="panelTitle"></h3>
+            <p id="panelCount"></p>
+            <ul id="panelTopics"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="featured" class="block alt">
+      <div class="wrap" id="featuredBox"></div>
+    </section>
+
+    <section id="projects" class="block">
+      <div class="wrap">
+        <p class="eyebrow">Projects</p>
+        <h2>More of my work</h2>
+        <div class="project-list" id="projectList"></div>
+      </div>
+    </section>
+
+    <section id="education" class="block alt">
+      <div class="wrap">
+        <p class="eyebrow">Education</p>
+        <h2>Where I study</h2>
+        <div id="educationList"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="contact">
+    <div class="wrap">
+      <h2>Let's build something together</h2>
+      <p>I am looking for opportunities in full stack development.</p>
+      <div class="cta" id="contactLinks"></div>
+      <p class="copy" id="copy"></p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

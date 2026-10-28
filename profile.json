@@ -1,0 +1,45 @@
+{
+  "name": "Gaurav Ayodhya Shivhare",
+  "role": "Full Stack Developer",
+  "tagline": "I build web platforms end to end: React interfaces, Node.js and Express APIs, and SQL or NoSQL databases.",
+  "location": "Pune, Maharashtra",
+  "links": { "linkedin": "", "github": "", "email": "" },
+  "skills": [
+    { "name": "OOPs", "topics": ["Classes and Objects", "Encapsulation", "Inheritance", "Polymorphism", "Abstraction", "Constructors", "Interfaces and Abstract Classes", "SOLID Principles"] },
+    { "name": "JavaScript", "topics": ["Variables and Data Types", "Functions and Closures", "Arrays and Objects", "ES6+ Features", "DOM Manipulation", "Promises and Async/Await", "Event Loop", "Modules"] },
+    { "name": "Node.js", "topics": ["Modules and npm", "File System", "Event Emitter", "Streams", "Async Programming", "HTTP Server", "Environment Variables", "Error Handling"] },
+    { "name": "Express.js", "topics": ["Routing", "Middleware", "Request and Response", "Error Handling", "JWT Authentication", "CORS", "Serving Static Files", "MVC Structure"] },
+    { "name": "SQL", "topics": ["SELECT and Filtering", "Joins", "Group By and Aggregates", "Subqueries", "Indexes", "Normalization", "Transactions", "Constraints"] },
+    { "name": "MongoDB", "topics": ["Documents and Collections", "CRUD Operations", "Aggregation Pipeline", "Indexing", "Mongoose Schemas", "Embedding vs Referencing"] },
+    { "name": "PostgreSQL", "topics": ["Tables and Data Types", "Joins", "Views", "Indexes", "Transactions", "Constraints", "Connecting from Node.js"] },
+    { "name": "REST APIs", "topics": ["HTTP Methods", "Status Codes", "Resource Design", "JSON", "Authentication", "Pagination", "Validation", "Testing with Postman"] },
+    { "name": "Full Stack Development", "topics": ["Frontend and Backend Integration", "Authentication", "Database Design", "CRUD Applications", "Git and GitHub", "Deployment"] },
+    { "name": "DSA", "topics": ["Arrays and Strings", "Linked Lists", "Stacks and Queues", "Recursion", "Trees", "Graphs", "Sorting and Searching", "Hashing", "Dynamic Programming"] }
+  ],
+  "featured": {
+    "title": "WebApp-V2",
+    "subtitle": "Website to Android app converter",
+    "description": "A web-based platform that lets users convert their websites into Android applications and generate APK and AAB packages. Users register, verify their email with an OTP, and manage every build from a dashboard.",
+    "status": "In development. Deployment planned.",
+    "features": [
+      "User registration and login",
+      "Email OTP verification",
+      "Dashboard to create and manage app builds",
+      "Build tracking from queue to finished package",
+      "APK and AAB package generation"
+    ],
+    "pipeline": ["React + Vite", "Node.js + Express API", "PostgreSQL", "Background build worker", "APK / AAB"],
+    "tech": ["React", "Vite", "Node.js", "Express.js", "PostgreSQL"],
+    "link": "",
+    "repo": ""
+  },
+  "projects": [
+    { "title": "Student Portal System", "description": "A web portal where students sign in and view their academic details.", "tech": ["Node.js", "Express.js", "SQL"], "link": "", "repo": "" },
+    { "title": "Warehouse Management System", "description": "Tracks inventory, stock in and out, and storage records for a warehouse.", "tech": ["Node.js", "Express.js", "PostgreSQL"], "link": "", "repo": "" },
+    { "title": "AgentOS", "description": "A platform for creating and running AI agents.", "tech": ["JavaScript", "Node.js", "LLM API"], "link": "", "repo": "" },
+    { "title": "AI Chatbot using LLM", "description": "A chatbot that answers questions through a large language model API.", "tech": ["JavaScript", "Node.js", "REST APIs"], "link": "", "repo": "" }
+  ],
+  "education": [
+    { "school": "VIT Pune", "degree": "B.Tech in Computer Engineering (Software Engineering)", "year": "Second year" }
+  ]
+}
